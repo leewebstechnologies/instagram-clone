@@ -1,0 +1,21 @@
+.headerContainer {
+  background-color: #fafafa;
+  min-height: 100vh;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #fff;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    object-fit: contain;
+    border-bottom: 1px solide lightgray;
+}
+
+.headerWrapper {
+    max-width: 975px;
+    margin: 0 auto;
+}
