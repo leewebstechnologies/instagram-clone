@@ -18,4 +18,47 @@
 .headerWrapper {
     max-width: 975px;
     margin: 0 auto;
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.logout__btn {
+    border: none;
+    color: #0095f6;
+    font-weight: 600;
+    line-height: 28px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn {
+    display: flex;
+    column-gap: 15px;
+}
+
+.login__btn {
+    background-color: #0095f6;
+    border-radius: 4px;
+    border: none;
+    padding: 5px 9px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+}
+
+.signup__btn {
+    border: none;
+    color: #0095f6;
+    font-weight: 600;
+    line-height: 28px;
+    background-color: transparent;
+    cursor: pointer;
 }
